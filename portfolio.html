@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Monica de Oliveira Lima</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+        <img src="Imagens/Monica.png" alt="Foto de Monica" class="perfil-img">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Meu nome é Monica, tenho 38 anos. Sou apaixonado por tecnologia e programação.</p>
+        <p>Em meu tempo livre, gosto de viajar com a minha familia, ler livros, fazer atividade fisica.</p>
+        <p>Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Uninter.</p>
+        <p>Trabalho na área de qualidade como QA Analist, e otimizar a experiência do usuário é uma das minhas maiores paixões.</p>
+        <p>Além disso, estou envolvida no projeto 'Agricultura sutentável', para desenvolver um aplicativo que fornece informações sobre uma horta comunitária, direcionado a moradores.</p>
+    </section>
+
+    <!-- Seção Formação -->
+    <section id="formacao">
+        <h2>Formação e Idiomas</h2>
+        <p>Tecnologia em Radiologia na Universidade Nove de Julho: duração 42 meses.</p>
+        <p>Análise e Desenvolvimento de Sistemas na Uninter, curso em andamento: duração 30 meses.</p>
+        <p>Inglês Open English: duração de 12 meses.</p>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Veja alguns dos meus projetos:</p>
+        <ul>
+            <li><a href="https://github.com/MonicaOLima/projeto.teste">Acesse o site</a></li>
+            <li><a href="https://github.com/MonicaOLima/Delivery.Much">Acesse o site</a></li>
+        </ul>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="enviar_formulario.php" method="post">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Monica de Oliveira Lima. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
